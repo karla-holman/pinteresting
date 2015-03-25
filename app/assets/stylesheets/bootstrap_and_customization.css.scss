@@ -1,0 +1,36 @@
+/* 
+ * Karla's Customizations for Bootstrap
+ * March 24, 2015
+ * http://getbootstrap.com/customize/
+ * http://flatuicolors.com/
+ */
+
+// Colors
+$brand-primary:	#3498db;
+
+// Body
+$body-bg:	#3498db;
+
+// Typography
+$font-size-base: 14px;
+$font-size-h1: floor(($font-size-base * 2.6));
+$font-size-h2: floor(($font-size-base * 2.1));
+$font-size-h3: floor(($font-size-base * 1.7));
+$font-size-h4: floor(($font-size-base * 1.25));
+$font-size-body: floor(($font-size-base));
+
+$font-family-sans-serif: "Open-sans", "Helvetica Neue", Helvetica;
+$font-family-base: $font-family-sans-serif;
+
+// Nav bar
+$navbar-default-bg:	#2980b9;
+$navbar-default-link-color: white;
+$navbar-inverse-bg: #2c3e50;
+$navbar-inverse-link-color: white;
+
+// Jumbotron
+$jumbotron-bg:	#ecf0f1;
+$jumbotron-font-size: floor(($font-size-base)); 
+$jumbotron-font-size-h1: floor(($font-size-base * 2.6));
+
+@import 'bootstrap';
