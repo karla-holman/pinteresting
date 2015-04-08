@@ -5,11 +5,13 @@
  * http://flatuicolors.com/
  */
 
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 // Colors
 $brand-primary:	#3498db;
 
 // Body
-$body-bg:	#3498db;
+$body-bg:	#ecf0f1;
 
 // Typography
 $font-size-base: 14px;
@@ -19,18 +21,27 @@ $font-size-h3: floor(($font-size-base * 1.7));
 $font-size-h4: floor(($font-size-base * 1.25));
 $font-size-body: floor(($font-size-base));
 
-$font-family-sans-serif: "Open-sans", "Helvetica Neue", Helvetica;
+$font-family-sans-serif: Lato, "Helvetica Neue", Helvetica;
 $font-family-base: $font-family-sans-serif;
 
 // Nav bar
 $navbar-default-bg:	#2980b9;
 $navbar-default-link-color: white;
-$navbar-inverse-bg: #2c3e50;
+$navbar-inverse-bg: #2980b9;
 $navbar-inverse-link-color: white;
+$navbar-height: 45px;
 
 // Jumbotron
-$jumbotron-bg:	#ecf0f1;
+$jumbotron-bg:	white;
 $jumbotron-font-size: floor(($font-size-base)); 
 $jumbotron-font-size-h1: floor(($font-size-base * 2.6));
 
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
